@@ -1,0 +1,27 @@
+{
+  "$schema": "https://www.schemastore.org/package",
+  "name": "banking-and-currency-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple CLI banking and currency exchange simulation app.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seoyunnie/csadprg-mcos.git",
+    "directory": "js/mco1"
+  },
+  "author": "Raphael Panaligan",
+  "type": "module",
+  "bin": "./bin/index.mjs",
+  "scripts": {
+    "build": "tsdown -d ./bin",
+    "start": "node ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.4",
+    "tsdown": "^0.18.2",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=24.12"
+  }
+}

@@ -1,0 +1,9 @@
+[package]
+name = "banking-and-currency-app"
+version = "1.0.0"
+edition = "2024"
+description = "A simple CLI banking and currency exchange simulation app."
+repository = "https://github.com/seoyunnie/csadprg-mcos.git"
+categories = ["finance", "simulation"]
+
+[dependencies]

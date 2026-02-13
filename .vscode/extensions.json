@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+
+    /* JavaScript */
+    "oxc.oxc-vscode",
+    "esbenp.prettier-vscode",
+
+    /* YAML */
+    "redhat.vscode-yaml",
+
+    /* Rust */
+    "rust-lang.rust-analyzer",
+
+    /* TOML */
+    "tamasfe.even-better-toml",
+
+    /* PowerShell */
+    "ms-vscode.powershell"
+  ]
+}

@@ -1,0 +1,22 @@
+*      text=auto
+*.csv  text eol=crlf
+*.json text
+*.lock text
+*.ps1  text eol=crlf
+*.rs   text diff=rust
+*.sh   text eol=lf
+*.toml text
+*.ts   text
+*.yaml text
+
+.editorconfig   text
+.gitattributes  text export-ignore
+.gitignore      text export-ignore
+.node-version   text
+.prettierignore text
+
+# Overrides
+.vscode/*.json linguist-language=jsonc
+
+package.json   eol=lf
+pnpm-lock.yaml eol=lf

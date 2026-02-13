@@ -1,0 +1,22 @@
+{
+  "$schema": "https://www.schemastore.org/tsconfig.json",
+
+  "extends": [
+    "@tsconfig/recommended/tsconfig.json",
+    "@tsconfig/strictest/tsconfig.json",
+    "@tsconfig/node24/tsconfig.json",
+    "@tsconfig/node-ts/tsconfig.json"
+  ],
+
+  "compilerOptions": {
+    /* Type Checking */
+    "noUncheckedIndexedAccess": false,
+
+    /* Modules */
+    "noUncheckedSideEffectImports": true,
+
+    /* Emit */
+    "noEmit": true,
+    "stripInternal": true
+  }
+}

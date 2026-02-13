@@ -1,0 +1,21 @@
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Node.js
+**/node_modules/
+
+# Node.js Tools
+**/.turbo/
+**/bin/
+
+# Cargo
+target/
+
+# Generated Reports
+**/report*.csv
+**/summary.json
+
+# macOS
+**/.DS_Store

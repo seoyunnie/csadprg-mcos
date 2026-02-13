@@ -1,0 +1,15 @@
+{
+  "oxc.configPath": ".oxlintrc.json",
+  "oxc.tsConfigPath": "tsconfig.json",
+  "oxc.unusedDisableDirectives": "warn",
+  "oxc.typeAware": true,
+  "oxc.disableNestedConfig": true,
+
+  "prettier.configPath": ".prettierrc.json",
+  "prettier.ignorePath": ".prettierignore",
+
+  "[json][jsonc][markdown][typescript][yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[powershell]": { "editor.defaultFormatter": "ms-vscode.powershell" },
+  "[rust]": { "editor.defaultFormatter": "rust-lang.rust-analyzer" },
+  "[toml]": { "editor.defaultFormatter": "tamasfe.even-better-toml" }
+}
