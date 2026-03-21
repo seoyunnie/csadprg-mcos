@@ -1,5 +1,5 @@
 {
-  "$schema": "https://www.schemastore.org/package",
+  "$schema": "https://www.schemastore.org/package.json",
   "name": "banking-and-currency-app",
   "version": "1.0.0",
   "private": true,
